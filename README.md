@@ -35,8 +35,8 @@ The challenge required building an age calculator app with the following feature
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/JEETAHIRWAR/Age-calculator-app)
+- Live Site URL: [Add live site URL here](https://jeetahirwar.github.io/Age-calculator-app/)
 
 ## My process
 
