@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="mainContainer">
+
+    <div class="inputContainer">
+      <div class="IIContainer">
+        <label for="birthDay">Day</label>
+        <input type="number" id="birthDay" placeholder="DD" required>
+        <p class="error" id="required"><!-- This field is required --></p>
+        <p class="error" id="dayError"><!-- must be a valid day --></p>
+      </div>
+
+      <div class="IIContainer">
+        <label for="birthMonth">Month</label>
+        <input type="number" id="birthMonth" placeholder="MM" required>
+        <p class="error" id="required"><!-- This field is required --></p>
+        <p class="error" id="monthError"><!-- must be a valid month --></p>
+      </div>
+
+      <div class="IIContainer">
+        <label for="birthYear">Year</label>
+        <input type="number" id="birthYear" placeholder="YYYY" required>
+        <p class="error" id="required"><!-- This field is required --></p>
+        <p class="error" id="yearError"><!-- must be in the past --></p>
+      </div>
+    </div>
+    <div class="submitContainer">
+      <hr>
+      <button onclick="calculateAge()" class="submitBtn" id="submitBtn">
+        <img src="./assets/images/icon-arrow.svg" alt="submit" srcset="" id="submitImage">
+      </button>
+    </div>
+
+    <div id="result" class="result">
+      <h1><span id="Years"> --</span> years</h1>
+      <h1><span id="Months"> --</span> months</h1>
+      <h1><span id="Days"> --</span> days</h1>
+    </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Jeet Ahirwar</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
